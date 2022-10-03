@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+   <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            
+            <img src="assets/img/viajes.svg" width="30" height="30">
+            Viajes Chile
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#seccion-carousel">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-somos">Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </header>
+
+   <main>
+    <section class="section-carousel" id="seccion-carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="section-somos container mt-5" id="seccion-somos">
+        <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
+        <hr class="mb-5">
+        <div class="row">
+            <div class="col-12 col-md-4 mb-3">
+                <div class="text-center bg-info mb-3">
+                    <i class="fa fa-solid fa-plane fa-2x py-2"></i>
+                </div>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt exercitationem ut, earum blanditiis nobis cumque? In excepturi consectetur assumenda, nemo magni aut expedita inventore doloribus consequatur laboriosam sunt ad!</p>
+            </div>
+            <div class="col-12 col-md-4 mb-3 d-sm-block d-none">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt exercitationem ut, earum blanditiis nobis cumque? In excepturi consectetur assumenda, nemo magni aut expedita inventore doloribus consequatur laboriosam sunt ad!</p>
+                <div class="text-center bg-info mt-2">
+                    <i class="fa fa-solid fa-mountain fa-2x py-2"></i>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-3 d-md-none">
+                <div class="text-center bg-info mb-3">
+                    <i class="fa fa-solid fa-mountain fa-2x py-2"></i>
+                </div>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt exercitationem ut, earum blanditiis nobis cumque? In excepturi consectetur assumenda, nemo magni aut expedita inventore doloribus consequatur laboriosam sunt ad!</p>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <div class="text-center bg-info mb-3">
+                    <i class="fa fa-solid fa-route fa-2x py-2"></i>
+                </div>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt exercitationem ut, earum blanditiis nobis cumque? In excepturi consectetur assumenda, nemo magni aut expedita inventore doloribus consequatur laboriosam sunt ad!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-destacados container mt-5" id="seccion-destacados">
+        <h2 class="text-center">DESTACADOS</h2>
+        <hr class="mb-5">
+        <div class="row">
+            <div class="col-12 col-md-3 mb-5">
+                <div class="card bg-info">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title text-center"><b>LOREM IPSUM</b></div>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dignissimos enim iste iure voluptates eaque quam deserunt.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-3 mb-5">
+                <div class="card bg-info">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title text-center"><b>LOREM IPSUM</b></div>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dignissimos enim iste iure voluptates eaque quam deserunt.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-3 mb-5">
+                <div class="card bg-info">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title text-center"><b>LOREM IPSUM</b></div>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dignissimos enim iste iure voluptates eaque quam deserunt.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-3 mb-5">
+                <div class="card bg-info">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title text-center"><b>LOREM IPSUM</b></div>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dignissimos enim iste iure voluptates eaque quam deserunt.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-contacto container my-5" id="seccion-contacto">
+        <h2 class="text-center">CONTACTO</h2>
+        <hr class="mb-5">
+        <form>
+            <div class="mb-3">
+              <label for="formularioContactoNombre" class="form-label">Nombre</label>
+              <input type="email" class="form-control" id="formularioContactoNombre" required minlength="10" maxlength="50">
+            </div>
+            <div class="mb-3">
+                <label for="formularioContactoAsunto" class="form-label">Asunto</label>
+                <input type="email" class="form-control" id="formularioContactoAsunto" required minlength="1" maxlength="100">
+              </div>
+              <div class="mb-3">
+                <label for="formularioContactoMsj" class="form-label">Mensaje</label>
+                <textarea id="formularioContactoMsj" rows="3" class="form-control" required minlength="1" maxlength="500"></textarea>
+              </div>
+            
+            
+              <button type="button" class="btn btn-outline-info">Enviar</button>
+          </form>
+    </section>
+
+   </main>
+
+   <footer class="container-fluid text-center bg-info py-4 my-4">
+    <div class="footer-wrap">
+      <div>
+        <p class="fs-2">Viajes Chile</p>
+      </div>
+      <div>
+        <i
+          data-bs-toggle="tooltip"
+          data-placement="top"
+          title="@viajeschile"
+          class="fas fa-brands fa-github fa-2x mx-2"
+        ></i>
+        <i
+          data-bs-toggle="tooltip"
+          data-placement="top"
+          title="@viajeschile"
+          class="fa-brands fa-linkedin fa-2x mx-2"
+        ></i>
+        <i
+          data-bs-toggle="tooltip"
+          data-placement="top"
+          title="@viajeschile"
+          class="fa-brands fa-facebook fa-2x mx-2"
+        ></i>
+        <i
+          data-bs-toggle="tooltip"
+          data-placement="top"
+          title="@viajeschile"
+          class="fa-brands fa-twitter fa-2x mx-2"
+        ></i>
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
